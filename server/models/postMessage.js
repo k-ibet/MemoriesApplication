@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 
+const date = new Date()
 //an instance of a model is called a document.
 //what we're creating now is called a schema
 const  postSchema = mongoose.Schema({

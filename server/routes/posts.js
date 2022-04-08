@@ -5,6 +5,8 @@ const router = express.Router();
 //functions for posts
 import { getPosts, createPost, updatePost, deletePost, likePost} from '../controllers/posts.js'
 
+//where is postRoutes?
+
 //http://localhost:5000/posts
 router.get('/' , getPosts);
 router.post('/' , createPost);

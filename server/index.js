@@ -15,7 +15,7 @@ app.use(cors());
 
 app.use( '/posts', postRoutes);
 
-//const CONNECTION_URL = "mongodb+srv://chirchir1:WoDWqHy2CpRVCO9v@memories-cluster.hqkal.mongodb.net/memories-cluster?retryWrites=true&w=majority"
+
 const PORT = process.env.PORT || 5000;
 
 //mongoose.connect() takes two args: the connection url &an object with all the options

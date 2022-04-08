@@ -7,9 +7,10 @@ import useStyles from './styles';
 
 const Posts = ({ setCurrentId }) => {
     const classes = useStyles();
+    //allows for extraction of data from redux store using a selector func
     const posts = useSelector((state) => state.posts);
 
-    console.log(posts);
+    //console.log(posts);
     
     return (
         !posts.length ? <CircularProgress /> : (
